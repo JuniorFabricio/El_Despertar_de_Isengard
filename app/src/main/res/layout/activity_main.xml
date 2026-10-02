@@ -28,7 +28,83 @@
 
         />
     <!-- Spinner de Uruk_hai-->
+    <TextView
+        android:id="@+id/textoTipoUnidad"
+        android:text="@string/TipoUnidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/nombreTexto"
+        />
 
+    <Spinner
+        android:id="@+id/SeleccionUnidad"
+        android:entries="@array/Tipo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textoTipoUnidad"/>
+
+
+    <TextView
+        android:id="@+id/Equipamiento"
+        android:text="@string/Equipamiento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/SeleccionUnidad"
+        />
+
+    <RadioGroup
+        android:id="@+id/EquipamientoSeleccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Equipamiento"
+        >
+        <RadioButton
+            android:text="@string/Armadura_Hierro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+
+            />
+        <RadioButton
+            android:text="@string/Escudo_de_Isengar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+
+
+
+    </RadioGroup>
+    <TextView
+        android:id="@+id/antorcha"
+        android:text="@string/Equipamiento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/EquipamientoSeleccion"
+        />
+    <CheckBox
+        android:id="@+id/antorchaCheck"
+        android:text="@string/Antorcha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/antorcha"
+        />
+
+    <ImageButton
+        android:id="@+id/bton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher_background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/antorchaCheck"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
 
 
   </androidx.constraintlayout.widget.ConstraintLayout>

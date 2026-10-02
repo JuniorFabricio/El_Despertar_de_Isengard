@@ -1,11 +1,22 @@
 <resources>
     <string name="app_name">El Despertar de Isengard</string>
     <string name="NameUruk_hai">Nombre de Uruk-hai</string>
-    <string-array name="Tipo">
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+    <string name="TipoUnidad">Tipo de Unidad</string>
+    <string name="Equipamiento">Equipamiento</string>
+    <string name="Armadura_Hierro">Armadura de Hierro</string>
+    <string name="Escudo_de_Isengar">Escudo de Isengar</string>
+    <string name="Antorcha">LLevar Antorcha de Polvorín</string>
 
+
+
+
+
+
+    <string-array name="Tipo">
+        <item>Guerro</item>
+        <item>Arquero</item>
+        <item>Explorador</item>
+        <item>Berserker</item>
     </string-array>
+
 </resources>
