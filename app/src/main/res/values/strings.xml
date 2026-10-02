@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">El Despertar de Isengard</string>
+    <string name="NameUruk_hai">Nombre de Uruk-hai</string>
+    <string-array name="Tipo">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+
+    </string-array>
+</resources>
